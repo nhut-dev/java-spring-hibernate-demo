@@ -4,6 +4,7 @@ import java.util.List;
 
 import in.bushansirgur.springboot.crudapi.model.Employee;
 
+@Repository
 public interface EmployeeService {
 	
 	List<Employee> get();
